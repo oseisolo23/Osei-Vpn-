@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Osei VPN</string>
+    <string name="app_tagline">Premium VPN for Everyone</string>
+    
+    <!-- Home Screen -->
+    <string name="connect_button">Connect</string>
+    <string name="disconnect_button">Disconnect</string>
+    <string name="connecting">Connecting...</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="connection_failed">Connection Failed</string>
+    
+    <!-- Server Screen -->
+    <string name="servers">Servers</string>
+    <string name="recommended">Recommended</string>
+    <string name="all_servers">All Servers</string>
+    <string name="ghana_servers">Ghana Servers</string>
+    <string name="international_servers">International</string>
+    <string name="ping">Ping</string>
+    <string name="ms">ms</string>
+    <string name="loading">Loading...</string>
+    
+    <!-- Stats Screen -->
+    <string name="statistics">Statistics</string>
+    <string name="upload_speed">Upload Speed</string>
+    <string name="download_speed">Download Speed</string>
+    <string name="connection_duration">Connection Duration</string>
+    <string name="total_data_used">Total Data Used</string>
+    <string name="vpn_ip">VPN IP</string>
+    <string name="protocol">Protocol</string>
+    <string name="ip_address">IP Address</string>
+    
+    <!-- Settings Screen -->
+    <string name="settings">Settings</string>
+    <string name="security">Security</string>
+    <string name="general">General</string>
+    <string name="about">About</string>
+    <string name="auto_connect">Auto Connect</string>
+    <string name="kill_switch">Kill Switch</string>
+    <string name="dns_protection">DNS Protection</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="biometric_lock">Biometric Lock</string>
+    <string name="app_version">App Version</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_of_service">Terms of Service</string>
+    
+    <!-- Navigation -->
+    <string name="home">Home</string>
+    <string name="add_time">ADD TIME</string>
+    <string name="menu">Menu</string>
+    
+    <!-- Ghana Networks -->
+    <string name="mtn_ghana">MTN Ghana</string>
+    <string name="telecel_ghana">Telecel Ghana</string>
+    <string name="at_ghana">AT Ghana</string>
+    <string name="ghana_2">Ghana 2</string>
+    <string name="ghana_mtn_500mb">Ghana | MTN 500MB 1</string>
+    
+    <!-- International Servers -->
+    <string name="united_states">United States</string>
+    <string name="united_kingdom">United Kingdom</string>
+    <string name="germany">Germany</string>
+    <string name="singapore">Singapore</string>
+    <string name="netherlands">Netherlands</string>
+    
+    <!-- Messages -->
+    <string name="connection_established">Connection Established</string>
+    <string name="connection_lost">Connection Lost</string>
+    <string name="reconnecting">Reconnecting...</string>
+    <string name="no_internet">No Internet Connection</string>
+    <string name="vpn_activated">VPN Activated</string>
+    <string name="vpn_deactivated">VPN Deactivated</string>
+    
+</resources>
