@@ -11,9 +11,15 @@ public partial class App : Application
 
     protected override void OnLaunched(Microsoft.UI.Xaml.LaunchActivatedEventArgs args)
     {
-        m_window = new MainWindow();
-        m_window.Activate();
-    }
+        var window = new MainWindow();
 
-    private Window? m_window;
+        // Resolve DataContext from DI host if available
+        if (Program.Host?.Services != null)
+        {
+            var vm = Program.Services.GetService(typeof(MainViewModel)) as MainViewModel;
+            window.DataContext = vm;
+        }
+
+        window.Activate();
+    }
 }

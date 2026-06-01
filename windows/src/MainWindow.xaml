@@ -7,7 +7,15 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="#0F172A">
-        <TextBlock Text="Osei VPN - Windows (Skeleton)" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"/>
+    <Grid Background="#0F172A" Padding="24">
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="12">
+            <TextBlock Text="Osei VPN - Windows (Starter)" Foreground="White" HorizontalAlignment="Center" FontSize="20"/>
+            <TextBlock Text="Status:" Foreground="#94A3B8" />
+            <TextBlock Text="{Binding Status}" Foreground="#06B6D4" FontSize="16" FontWeight="Bold" />
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Spacing="12">
+                <Button Content="Connect" Width="120" Click="OnConnectClick" />
+                <Button Content="Disconnect" Width="120" Click="OnDisconnectClick" />
+            </StackPanel>
+        </StackPanel>
     </Grid>
 </Page>
